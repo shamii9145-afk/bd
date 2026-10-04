@@ -30,3 +30,7 @@ Open http://localhost:4173 in a browser with WebGL enabled. No package installat
 Run the animation checks with `npm run verify`.
 
 Google Fonts requires an internet connection; the page includes fallback fonts. This repository upload does not deploy the website.
+
+## Deploy on Vercel
+
+Import this repository and keep Root Directory at the repository root (`.`). The included `vercel.json` selects the Other framework preset, skips build and install commands, and serves `dist/` as a static website. `npm start` is only for local preview; do not use it as the Vercel build command.
