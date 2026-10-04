@@ -1,1 +1,9 @@
-﻿{"name":"nadia-birthday-story","private":true,"type":"module","scripts":{"start":"node serve.mjs","verify":"node verify-animation.mjs"}}
+{
+  "name": "nadia-birthday-story",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs",
+    "verify": "node verify-animation.mjs"
+  }
+}
