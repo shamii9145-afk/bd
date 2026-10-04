@@ -19,3 +19,5 @@ prepare-heading-check.cjs
 prepare-interactive-check.cjs
 refine-moon.cjs
 update-heading.cjs
+add-countdown.cjs
+prepare-countdown-check.cjs

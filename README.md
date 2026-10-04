@@ -34,3 +34,7 @@ Google Fonts requires an internet connection; the page includes fallback fonts. 
 ## Deploy on Vercel
 
 Import this repository and keep Root Directory at the repository root (`.`). The included `vercel.json` selects the Other framework preset, skips build and install commands, and serves `dist/` as a static website. `npm start` is only for local preview; do not use it as the Vercel build command.
+
+## Birthday release
+
+The entry page shows a countdown until **5 October 2026 at 00:00 Pakistan Standard Time** (4 October at 19:00 UTC). The birthday markup remains in an inert template and the 3D application is imported only after that time. This presentation gate uses the visitor's device clock; it is not server-side access control. The release constant is in `dist/release.js`. `verify-countdown.cjs` checks the locked and released browser states.
