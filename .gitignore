@@ -1,0 +1,21 @@
+﻿.qa-browser/
+.qa-browser-v2/
+qa-*.png
+v2-*.png
+character-reference.webp
+
+# Local hosting metadata and generated previews
+.openai/
+v3-*.png
+node_modules/
+*.log
+# One-off editing helpers
+add-interactive.cjs
+finalize-controls.cjs
+fix-hands.cjs
+improve-story.cjs
+polish-garden.cjs
+prepare-heading-check.cjs
+prepare-interactive-check.cjs
+refine-moon.cjs
+update-heading.cjs
